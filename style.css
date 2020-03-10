@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    font-family: 'Fredoka One'
+}
+.btn-warning{
+    color: white;
+}
+h1{
+    margin: 30px 0;
+    color: white;
+}
+.principal{
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: #007991;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd6, #007991);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #007991); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+input{
+    margin: 20px 0px;
+}
+
+
+li{
+    height: 90px;
+    border-bottom: solid 1px rgb(73, 73, 73);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0;
+    margin: 10px 0;
+}
+
+
+.badge{
+    font-size: 15px;
+}
+.tareas{
+    background-color: white;
+    padding: 10px 0;
+    position: relative;
+    top: 270px ;
+}
+
+.error::placeholder{
+    color: tomato;
+}
